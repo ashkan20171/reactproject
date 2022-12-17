@@ -5,7 +5,7 @@ import { RiCloseLine } from "react-icons/ri";
 import './Navbar.css';
 
 const Navbar = () => {
-  const [showIcon , setShowIcon] = useState(true);
+  const [showIcon , setShowIcon] = useState(false);
 
   const toggleMenu = () => {
     setShowIcon(!showIcon);
