@@ -15,9 +15,8 @@ const Header = () => {
           </h1>
           <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
           <div className="header-btn">
-            
-            <a href="" className="btn btn-dark">بیاین شروع کنیم</a>
-            <a href="" className="btn btn-light">چجوری کار میکنیم</a>
+            <a href="#" className="btn btn-dark">بیاین شروع کنیم</a>
+            <a href="#" className="btn btn-light">چجوری کار میکنیم</a>
           </div>
         </div>
         <div className="header-left">
@@ -27,7 +26,7 @@ const Header = () => {
 
       <div className="floating-icon">
         <a href="">
-          <BsMouse color={"#fff"} size={25} />
+          <BsMouse color={"#fff"} size={25} className="mouse" />
         </a>
       </div>
     </section>

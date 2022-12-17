@@ -1,3 +1,4 @@
+
 .navbar {
      height: 8rem;
      display: flex;
@@ -15,18 +16,6 @@
      margin-left: 10px;
 }
 
-.nav-links a {
-     color: #fff;
-     font-size: 16px;
-     text-decoration: none;
-     margin-right: 1rem;
-     font-weight: 300;
-     transition: .3s ease;
-     -webkit-transition: .3s ease;
-     -moz-transition: .3s ease;
-     -ms-transition: .3s ease;
-     -o-transition: .3s ease;
-}
 
 .nav-links a:hover {
      color: orangered;
@@ -51,18 +40,6 @@
      font-weight: 600;
 }
 
-a.btn {
-     border-radius: 5px;
-     -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-     -ms-border-radius: 5px;
-     -o-border-radius: 5px;
-     padding: 5px 8px;
-}
-
-a.btn-dark {
-     border: 2px solid #fff;
-}
 
 .menu-icons {
      display: none;
@@ -91,6 +68,7 @@ a.btn-dark {
           -moz-transition: .3s ease;
           -ms-transition: .3s ease;
           -o-transition: .3s ease;
+          z-index: 1000;
      }
 
      .navbar #show-links-mobile li,
@@ -120,7 +98,7 @@ a.btn-dark {
      }
 
      .navbar #show-links-mobile-hide {
-          left: -100%;
+         left: -100%;
           animation: slide-out .5s ease-in-out;
           -webkit-animation: slide-out .5s ease-in-out;
      }

@@ -16,7 +16,6 @@ const Navbar = () => {
     <nav className="navbar container">
       <div className="menu">
         <ul className="nav-links" id={showIcon ? "show-links-mobile" : "show-links-mobile-hide" }>
-         
           <li><a href="" className="btn btn-dark">آموزش بیشتر</a></li>
           <li><a href="">خانه</a></li>
           <li><a href="">امکانات</a></li>
@@ -36,7 +35,8 @@ const Navbar = () => {
           showIcon ? 
           <RiCloseLine size={35} color={"#fff"} cursor={"pointer"}/>
           :
-          <AiOutlineBars size={35} color={"#fff"} cursor={"pointer"} /> 
+          <AiOutlineBars size={35} color={"#fff"} cursor={"pointer"} />
+           
         }
       </div>
     </nav>

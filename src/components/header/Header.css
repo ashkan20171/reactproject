@@ -91,3 +91,62 @@ h1 span:nth-child(3){
 .floating-icon a{
      margin: 0;
 }
+
+
+.mouse{
+     transform: translateY(-25%);
+     -webkit-transform: translateY(-25%);
+     -moz-transform: translateY(-25%);
+     -ms-transform: translateY(-25%);
+     -o-transform: translateY(-25%);
+     animation: bounce .8s ease infinite alternate;
+     -webkit-animation: bounce .8s ease infinite alternate;
+}
+
+@keyframes bounce {
+     0%{
+          transform: translateY(-25%);
+          -webkit-transform: translateY(-25%);
+          -moz-transform: translateY(-25%);
+          -ms-transform: translateY(-25%);
+          -o-transform: translateY(-25%);
+}
+     100%{
+          transform: translateY(25%);
+          -webkit-transform: translateY(25%);
+          -moz-transform: translateY(25%);
+          -ms-transform: translateY(25%);
+          -o-transform: translateY(25%);
+}
+}
+
+
+@media screen and (max-width: 768px) {
+          .header h1{
+               font-size: 3rem;
+          }
+}
+
+@media  screen and (max-width: 600px) {
+     .header{
+          flex-direction: column;
+     }
+   
+     .header-right, .header-left{
+          width: 90%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          margin: 0 auto;
+     }
+     .header-right{
+          margin-bottom: 4rem;
+     }
+     .header-left img {
+          width: 75%;
+     }
+     section{
+          padding: 8rem 0;
+     }
+}
