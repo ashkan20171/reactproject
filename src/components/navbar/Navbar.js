@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import { AiOutlineBars } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
@@ -15,6 +16,7 @@ const Navbar = () => {
     <nav className="navbar container">
       <div className="menu">
         <ul className="nav-links" id={showIcon ? "show-links-mobile" : "show-links-mobile-hide" }>
+         
           <li><a href="" className="btn btn-dark">آموزش بیشتر</a></li>
           <li><a href="">خانه</a></li>
           <li><a href="">امکانات</a></li>
