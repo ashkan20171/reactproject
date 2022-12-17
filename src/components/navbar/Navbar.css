@@ -70,4 +70,7 @@ a.btn-dark{
      .nav-links{
           display: none;
      }
+     .menu-icons{
+          display: block;
+     }
 }
