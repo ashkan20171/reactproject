@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineBars } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
-import { SiAnaconda } from "react-icons/si";
+
 import './Navbar.css';
 
 const Navbar = () => {
@@ -23,7 +23,6 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="logo">
-        <SiAnaconda color="#fff" size={30} />
         <p className='logo-text'>
           Ashkan
           <span>m</span>
