@@ -82,5 +82,12 @@ a.btn-dark{
           left: 0;
           background: #0a1930;
           width: 100%;
+          border: 2px solid #fff;
+     }
+     .navbar #show-links-mobile li{
+          padding: 15px 0;
+          margin: 0 15px;
+          text-align: center;
+          border-bottom: 1px solid #fff;
      }
 }
