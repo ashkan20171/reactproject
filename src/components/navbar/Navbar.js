@@ -25,8 +25,8 @@ const Navbar = () => {
       <div className="logo">
         <SiAnaconda color="#fff" size={30} />
         <p className='logo-text'>
-          ashkan
-          <span>m</span>
+          Social
+          <span>X</span>
         </p>
       </div>
 
