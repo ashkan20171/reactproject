@@ -1,15 +1,12 @@
-/* eslint-disable no-unused-vars */
 import React from 'react';
 import { MdOutlineLibraryBooks } from "react-icons/md";
-import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { questions } from './data.js';
 import './Faq.css';
-import { useState } from 'react';
+import Question from './Question.js';
 
 
 function Faq() {
 
-  const [showAnswer, setShowAnswer] = useState(false);
 
 
   return (
@@ -24,19 +21,11 @@ function Faq() {
         <div className="questions">
           {
             questions && questions.map((question) =>
-              <div className="container question" key={question.id}>
-              <div className="question-title">
-                <h2>{question.title}</h2>
-                <button>
-                  <AiOutlinePlus color='#1f93ff' />
-                </button>
-              </div>
-              <div className="question-answer">
-                {
-                  showAnswer && <p>{question.answer}</p>
-                }
-              </div>
-            </div>
+             <Question
+              key={question.id}
+              title={question.title}
+              answer={question.answer}
+             />
             )
           }
         </div>

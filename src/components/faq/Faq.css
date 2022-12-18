@@ -54,3 +54,15 @@
      -o-border-radius: 50%;
      cursor: pointer;
 }
+
+.questions .question .question-answer p{
+     font-size: 1.2rem;
+     margin-top: 1rem;
+}
+
+
+@media screen and (max-width: 600px) {
+     .faq-title p{
+          width: 100%;
+     }
+}
