@@ -17,10 +17,10 @@ const Navbar = () => {
       <div className="menu">
         <ul className="nav-links" id={showIcon ? "show-links-mobile" : "show-links-mobile-hide" }>
           <li><a href="" className="btn btn-dark">آموزش بیشتر</a></li>
-          <li><a href="">خانه</a></li>
-          <li><a href="">امکانات</a></li>
-          <li><a href="">دانلود</a></li>
-          <li><a href="">مشترک شوید</a></li>
+          <li><a href="#Navbar">خانه</a></li>
+          <li><a href="#Features">امکانات</a></li>
+          <li><a href="#download">دانلود</a></li>
+          <li><a href="#Subscribe">مشترک شوید</a></li>
         </ul>
       </div>
       <div className="logo">
